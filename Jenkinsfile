@@ -77,7 +77,7 @@ pipeline {
             steps {
                 script{
                     withDockerRegistry(credentialsId: 'dockerhub-cred') {
-                      sh "docker push omprakash194/secondtimage:latest"
+                      sh "docker push omprakash194/secondimage:latest"
                   }
                 }
                

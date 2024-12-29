@@ -1,4 +1,4 @@
-FROM adoptopenjdk/openjdk17 
+FROM openjdk:17-jdk-alpine
       
 EXPOSE 8080
  

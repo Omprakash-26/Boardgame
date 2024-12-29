@@ -70,7 +70,7 @@ pipeline {
         }
         stage('Docker Image Scan') {
             steps {
-                sh "trivy image --format table -o trivy-fs-report.html omprakash194/secondtimage:latest"
+                sh "trivy image --format table -o trivy-fs-report.html omprakash194/secondimage:latest"
             }
         }
         stage('Push Docker Image') {
